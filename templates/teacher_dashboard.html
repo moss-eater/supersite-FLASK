@@ -1,0 +1,12 @@
+<h2>Teacher Dashboard</h2>
+<a href="/logout">Logout</a>
+
+<h3>Students</h3>
+<ul>
+{% for student in students %}
+    <li>
+        {{ student.username }}
+        <a href="/add_entry/{{ student.id }}">Add Diary Entry</a>
+    </li>
+{% endfor %}
+</ul>

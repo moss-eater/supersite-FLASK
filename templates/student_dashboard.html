@@ -1,0 +1,8 @@
+<h2>Student Diary</h2>
+<a href="/logout">Logout</a>
+
+<ul>
+{% for entry in entries %}
+    <li>{{ entry.content }}</li>
+{% endfor %}
+</ul>

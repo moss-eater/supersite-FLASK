@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Diary Entries</h2>
+
+{% for entry in entries %}
+<div class="entry">
+    <h3>{{ entry.subject }} – {{ entry.date }}</h3>
+    <p>{{ entry.content }}</p>
+</div>
+{% else %}
+<p>No diary entries yet.</p>
+{% endfor %}
+{% endblock %}
