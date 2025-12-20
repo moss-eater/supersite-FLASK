@@ -1,42 +1,53 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f4f6f8;
-    margin: 0;
+    background: #8cb1ed;
+    color: white;
+    margin: 2;
 }
 
 header {
-    background: #2c3e50;
+    background: #7299b8;
     color: white;
-    padding: 15px;
+    padding: 16px;
+}
+
+select {
+    background: #7299b8;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    color: white;
 }
 
 nav a {
-    color: white;
-    margin-right: 15px;
+    color: #7299b8;
+    margin-right: 16px;
     text-decoration: none;
 }
 
 main {
-    padding: 20px;
+    padding: 16px;
 }
 
 .entry {
     background: white;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 form input, form textarea {
-    width: 100%;
-    margin-bottom: 10px;
+    color: #7299b8;
+    width: 95%;
+    margin-bottom: 8px;
     padding: 8px;
 }
 
 button {
-    background: #3498db;
+    background: #357db5;
     color: white;
-    padding: 10px;
+    padding: 8px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
 }
